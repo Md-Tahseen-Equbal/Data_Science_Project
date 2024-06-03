@@ -1,0 +1,51 @@
+ProductID,Name,SupplierID,CategoryID,Price
+1,Basmati Rice,3,1,358.9846517
+2,Wheat Flour,2,1,255.4992244
+3,Moong Dal,4,1,386.1764812
+4,Chickpeas,5,1,353.5039826
+5,Soybean Oil,3,1,172.8076988
+6,Ghee,3,1,487.4551341
+7,Paneer,2,2,484.2676791
+8,Yogurt,2,2,111.6145026
+9,Mango Pickle,5,1,182.5024562
+10,Mixed Vegetable Pickle,3,1,133.5093716
+11,Almonds,5,3,315.5712554
+12,Cashews,4,3,441.9512343
+13,Green Tea,2,3,166.2641704
+14,Masala Tea,3,3,380.8527447
+15,Coffee Powder,1,1,179.5504607
+16,Sugar,4,1,409.6170697
+17,Jaggery,1,3,200.8510914
+18,Salt,5,1,219.3627841
+19,Turmeric Powder,3,1,456.0074145
+20,Red Chili Powder,3,1,218.7660536
+21,Cumin Seeds,4,3,182.7412995
+22,Mustard Seeds,1,3,433.7040398
+23,Black Pepper,3,1,140.6243556
+24,Cardamom,3,1,344.9015017
+25,Cinnamon Sticks,2,1,224.5675782
+26,Detergent Powder,5,5,464.0220163
+27,Dishwashing Soap,5,5,146.6451513
+28,Toilet Cleaner,2,5,479.3408898
+29,Shampoo,4,4,361.8849759
+30,Conditioner,2,4,476.0805682
+31,Toothpaste,3,4,447.4753435
+32,Bath Soap,3,4,235.2164086
+33,Hand Sanitizer,3,4,496.2095989
+34,Facial Tissue,3,4,173.0823943
+35,Mouth wash,2,2,454.2854953
+36,Chapati,4,3,201.683993
+37,White Bread,3,3,436.2154886
+38,Brown Bread,3,3,346.1443086
+39,Eggs,3,3,89.87249352
+40,Butter,2,2,452.4008463
+41,Cheese Slices,3,2,440.9431243
+42,Tomato Ketchup,2,3,322.3976772
+43,Mayonnaise,5,2,258.1505177
+44,Soya Sauce,5,1,499.5698141
+45,Chili Sauce,5,1,154.7126846
+46,Potato Chips,4,3,169.9324815
+47,Chocolate Bar,4,3,407.9476684
+48,Biscuits,3,3,388.8132485
+49,Instant Noodles,4,3,89.5184864
+50,Pasta,4,3,166.7262278
