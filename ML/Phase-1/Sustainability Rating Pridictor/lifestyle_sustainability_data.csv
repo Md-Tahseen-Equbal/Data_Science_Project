@@ -1,0 +1,500 @@
+ParticipantID,Age,Location,DietType,LocalFoodFrequency,TransportationMode,EnergySource,HomeType,HomeSize,ClothingFrequency,SustainableBrands,EnvironmentalAwareness,CommunityInvolvement,MonthlyElectricityConsumption,MonthlyWaterConsumption,Gender,UsingPlasticProducts,DisposalMethods,PhysicalActivities,Rating
+1,35,Urban,Mostly Plant-Based,Often,Bike,Renewable,Apartment,800,Rarely,True,5,High,100,1500,Female,Rarely,Composting,High,5
+2,28,Suburban,Balanced,Sometimes,Public Transit,Mixed,House,1500,Sometimes,True,4,Moderate,250,3000,Male,Sometimes,Recycling,Moderate,4
+3,65,Rural,Mostly Animal-Based,Rarely,Car,Non-Renewable,House,2500,Often,False,2,Low,400,4500,Male,Often,Landfill,Low,1
+4,42,Urban,Mostly Plant-Based,Often,Walk,Renewable,Apartment,950,Sometimes,True,4,Moderate,150,2000,Female,Rarely,Recycling,High,5
+5,31,Suburban,Balanced,Sometimes,Public Transit,Mixed,House,1800,Often,True,3,Low,300,3500,Non-Binary,Sometimes,Combination,Moderate,3
+6,58,Rural,Mostly Animal-Based,Rarely,Car,Non-Renewable,House,2200,Always,False,1,None,450,5000,Male,Often,Landfill,None,1
+7,25,Urban,Mostly Plant-Based,Always,Bike,Renewable,Other,600,Rarely,True,5,High,80,1200,Female,Never,Composting,High,5
+8,39,Suburban,Balanced,Often,Public Transit,Renewable,House,1600,Sometimes,True,4,Moderate,200,2800,Female,Sometimes,Recycling,Moderate,4
+9,52,Rural,Mostly Plant-Based,Sometimes,Walk,Mixed,House,2000,Often,True,3,Low,350,4000,Male,Rarely,Combination,Low,3
+10,29,Urban,Mostly Animal-Based,Rarely,Car,Non-Renewable,Apartment,1100,Always,False,2,None,380,4200,Non-Binary,Often,Landfill,None,1
+11,48,Suburban,Mostly Plant-Based,Often,Bike,Renewable,House,1400,Sometimes,True,5,High,120,1800,Male,Rarely,Composting,High,5
+12,36,Urban,Balanced,Sometimes,Public Transit,Mixed,Apartment,900,Often,False,3,Low,280,3200,Female,Sometimes,Recycling,Moderate,3
+13,61,Rural,Mostly Animal-Based,Rarely,Car,Non-Renewable,Other,750,Always,False,1,None,420,4800,Male,Often,Landfill,None,1
+14,27,Urban,Mostly Plant-Based,Always,Walk,Renewable,House,1300,Rarely,True,4,Moderate,160,2200,Female,Never,Composting,High,5
+15,44,Suburban,Balanced,Often,Public Transit,Renewable,Apartment,1050,Sometimes,True,4,Moderate,220,3000,Prefer not to say,Sometimes,Recycling,Moderate,4
+16,59,Rural,Mostly Plant-Based,Sometimes,Bike,Mixed,House,1900,Often,True,3,Low,320,3800,Female,Rarely,Combination,Low,3
+17,32,Urban,Mostly Animal-Based,Rarely,Car,Non-Renewable,Other,650,Always,False,2,None,400,4600,Male,Often,Landfill,None,1
+18,50,Suburban,Mostly Plant-Based,Often,Walk,Renewable,House,1550,Rarely,True,5,High,130,1900,Female,Never,Composting,High,5
+19,24,Urban,Balanced,Sometimes,Public Transit,Mixed,Apartment,850,Often,True,3,Moderate,260,3100,Male,Sometimes,Recycling,Moderate,3
+20,63,Rural,Mostly Animal-Based,Rarely,Car,Non-Renewable,House,2400,Always,False,1,None,480,5200,Non-Binary,Often,Landfill,None,1
+21,41,Urban,Mostly Plant-Based,Always,Bike,Renewable,House,1200,Rarely,True,5,High,90,1400,Female,Never,Composting,High,5
+22,30,Suburban,Balanced,Often,Public Transit,Mixed,Apartment,1000,Sometimes,False,3,Low,290,3400,Male,Sometimes,Recycling,Moderate,3
+23,57,Rural,Mostly Plant-Based,Sometimes,Walk,Renewable,Other,700,Often,True,4,Moderate,180,2600,Male,Rarely,Combination,Moderate,4
+24,26,Urban,Mostly Animal-Based,Rarely,Car,Non-Renewable,Apartment,1150,Always,False,2,None,360,4100,Non-Binary,Often,Landfill,None,1
+25,49,Suburban,Mostly Plant-Based,Often,Walk,Renewable,House,1450,Sometimes,True,4,Moderate,170,2100,Female,Rarely,Recycling,High,5
+26,37,Urban,Balanced,Sometimes,Public Transit,Mixed,Other,680,Often,False,3,Low,270,3300,Prefer not to say,Sometimes,Combination,Moderate,3
+27,62,Rural,Mostly Animal-Based,Rarely,Car,Non-Renewable,House,2300,Always,False,1,None,460,5100,Female,Often,Landfill,None,1
+28,22,Urban,Mostly Plant-Based,Always,Bike,Renewable,Apartment,880,Rarely,True,5,High,110,1600,Male,Never,Composting,High,5
+29,40,Suburban,Balanced,Often,Public Transit,Renewable,House,1700,Sometimes,True,4,Moderate,210,2900,Female,Sometimes,Recycling,Moderate,4
+30,53,Rural,Mostly Plant-Based,Sometimes,Walk,Mixed,Other,720,Often,True,3,Low,340,3900,Male,Rarely,Combination,Low,3
+31,33,Urban,Mostly Animal-Based,Rarely,Car,Non-Renewable,House,2100,Always,False,2,None,390,4300,Non-Binary,Often,Landfill,None,1
+32,45,Suburban,Mostly Plant-Based,Often,Walk,Renewable,Apartment,980,Rarely,True,4,High,140,1950,Female,Never,Composting,High,5
+33,28,Urban,Balanced,Sometimes,Public Transit,Mixed,House,1550,Often,True,3,Low,310,3600,Male,Sometimes,Recycling,Moderate,3
+34,60,Rural,Mostly Animal-Based,Rarely,Car,Non-Renewable,Other,780,Always,False,1,None,430,4900,Male,Often,Landfill,None,1
+35,24,Urban,Mostly Plant-Based,Always,Bike,Renewable,House,1250,Rarely,True,5,High,100,1550,Female,Never,Composting,High,5
+36,41,Suburban,Balanced,Often,Public Transit,Renewable,Apartment,1080,Sometimes,True,4,Moderate,230,3100,Prefer not to say,Sometimes,Recycling,Moderate,3
+37,62,Rural,Mostly Plant-Based,Sometimes,Bike,Mixed,House,1950,Often,True,3,Moderate,330,3900,Female,Rarely,Combination,Low,3
+38,33,Urban,Mostly Animal-Based,Rarely,Car,Non-Renewable,Other,670,Always,False,2,None,410,4700,Male,Often,Landfill,None,1
+39,46,Suburban,Mostly Plant-Based,Often,Walk,Renewable,House,1500,Rarely,True,4,High,150,2000,Male,Never,Composting,High,5
+40,29,Urban,Balanced,Sometimes,Public Transit,Mixed,Apartment,920,Often,True,3,Low,270,3300,Female,Sometimes,Recycling,Moderate,3
+41,56,Rural,Mostly Animal-Based,Rarely,Car,Non-Renewable,House,2350,Always,False,1,None,470,5200,Non-Binary,Often,Landfill,None,1
+42,23,Urban,Mostly Plant-Based,Always,Bike,Renewable,Other,620,Rarely,True,5,High,90,1300,Female,Never,Composting,High,5
+43,40,Suburban,Balanced,Often,Public Transit,Renewable,House,1650,Sometimes,True,4,Moderate,220,2900,Female,Sometimes,Recycling,Moderate,4
+44,53,Rural,Mostly Plant-Based,Sometimes,Walk,Mixed,House,1980,Often,True,3,Moderate,360,4100,Male,Rarely,Combination,Moderate,4
+45,30,Urban,Mostly Animal-Based,Rarely,Car,Non-Renewable,Apartment,1130,Always,False,2,None,370,4200,Male,Often,Landfill,None,1
+46,47,Suburban,Mostly Plant-Based,Often,Walk,Renewable,House,1480,Sometimes,True,4,High,160,2100,Prefer not to say,Rarely,Recycling,High,5
+47,38,Urban,Balanced,Sometimes,Public Transit,Mixed,Other,690,Often,False,3,Low,280,3400,Female,Sometimes,Combination,Moderate,3
+48,63,Rural,Mostly Animal-Based,Rarely,Car,Non-Renewable,House,2250,Always,False,1,None,440,5000,Male,Often,Landfill,None,1
+49,21,Urban,Mostly Plant-Based,Always,Bike,Renewable,Apartment,900,Rarely,True,5,High,100,1400,Female,Never,Composting,High,5
+50,39,Suburban,Balanced,Often,Public Transit,Renewable,House,1750,Sometimes,True,4,Moderate,230,3000,Male,Sometimes,Recycling,Moderate,4
+51,54,Rural,Mostly Plant-Based,Sometimes,Walk,Mixed,Other,730,Often,True,3,Low,350,4050,Male,Rarely,Combination,Low,3
+52,34,Urban,Mostly Animal-Based,Rarely,Car,Non-Renewable,House,2050,Always,False,2,None,380,4300,Non-Binary,Often,Landfill,None,1
+53,45,Suburban,Mostly Plant-Based,Often,Bike,Renewable,House,1350,Rarely,True,5,High,130,1850,Female,Never,Composting,High,5
+54,28,Urban,Balanced,Sometimes,Public Transit,Mixed,Apartment,950,Often,True,3,Moderate,290,3450,Male,Sometimes,Recycling,Moderate,3
+55,60,Rural,Mostly Plant-Based,Often,Walk,Renewable,House,1800,Sometimes,True,4,High,200,2800,Female,Rarely,Recycling,High,5
+56,24,Urban,Mostly Animal-Based,Rarely,Car,Non-Renewable,Apartment,1100,Often,False,2,None,370,4200,Male,Often,Landfill,None,1
+57,41,Suburban,Balanced,Sometimes,Bike,Mixed,House,1450,Sometimes,True,3,Low,320,3700,Non-Binary,Rarely,Combination,Moderate,3
+58,57,Rural,Mostly Plant-Based,Often,Walk,Renewable,Other,700,Rarely,True,4,Moderate,170,2500,Male,Never,Composting,High,5
+59,32,Urban,Mostly Animal-Based,Rarely,Car,Non-Renewable,House,2200,Often,False,2,None,410,4700,Male,Often,Landfill,None,1
+60,49,Suburban,Mostly Plant-Based,Often,Public Transit,Renewable,Apartment,1020,Sometimes,True,4,High,180,2300,Female,Rarely,Recycling,High,5
+61,36,Urban,Balanced,Sometimes,Bike,Mixed,House,1500,Sometimes,True,3,Moderate,280,3400,Prefer not to say,Rarely,Combination,Moderate,3
+62,61,Rural,Mostly Animal-Based,Rarely,Car,Non-Renewable,Other,760,Often,False,1,None,450,5000,Female,Often,Landfill,None,1
+63,27,Urban,Mostly Plant-Based,Always,Walk,Renewable,House,1280,Rarely,True,5,High,110,1600,Male,Never,Composting,High,5
+64,44,Suburban,Balanced,Often,Public Transit,Renewable,Apartment,1070,Sometimes,True,4,Moderate,240,3100,Female,Sometimes,Recycling,Moderate,4
+65,58,Rural,Mostly Plant-Based,Sometimes,Bike,Mixed,House,1850,Often,True,3,Low,330,3900,Male,Rarely,Combination,Low,3
+66,31,Urban,Mostly Animal-Based,Rarely,Car,Non-Renewable,Other,660,Always,False,2,None,390,4400,Non-Binary,Often,Landfill,None,1
+67,48,Suburban,Mostly Plant-Based,Often,Walk,Renewable,House,1420,Sometimes,True,4,High,150,2050,Male,Never,Composting,High,5
+68,35,Urban,Balanced,Sometimes,Public Transit,Mixed,Apartment,930,Often,False,3,Low,290,3500,Female,Sometimes,Recycling,Moderate,3
+69,62,Rural,Mostly Animal-Based,Rarely,Car,Non-Renewable,House,2320,Always,False,1,None,460,5100,Male,Often,Landfill,None,1
+70,22,Urban,Mostly Plant-Based,Always,Bike,Renewable,Other,610,Rarely,True,5,High,95,1350,Female,Never,Composting,High,5
+71,40,Suburban,Balanced,Often,Public Transit,Renewable,House,1680,Sometimes,True,4,Moderate,215,2850,Female,Sometimes,Recycling,Moderate,4
+72,53,Rural,Mostly Plant-Based,Sometimes,Walk,Mixed,House,1960,Often,True,3,Moderate,355,4050,Male,Rarely,Combination,Moderate,4
+73,34,Urban,Mostly Animal-Based,Rarely,Car,Non-Renewable,House,2080,Always,False,2,Low,390,4400,Male,Often,Landfill,None,1
+74,45,Suburban,Mostly Plant-Based,Often,Walk,Renewable,Apartment,990,Rarely,True,4,High,145,1950,Female,Never,Composting,High,5
+75,28,Urban,Balanced,Sometimes,Public Transit,Mixed,House,1530,Often,True,3,Moderate,295,3500,Male,Sometimes,Recycling,Moderate,3
+76,60,Rural,Mostly Plant-Based,Sometimes,Bike,Mixed,House,1880,Often,True,3,Moderate,335,3950,Female,Rarely,Combination,Moderate,4
+77,24,Urban,Mostly Animal-Based,Rarely,Car,Non-Renewable,Apartment,1110,Always,False,2,Low,375,4250,Male,Often,Landfill,Low,1
+78,41,Suburban,Balanced,Often,Public Transit,Renewable,House,1630,Sometimes,True,4,Moderate,225,2950,Non-Binary,Sometimes,Recycling,Moderate,4
+79,57,Rural,Mostly Plant-Based,Sometimes,Walk,Renewable,Other,710,Rarely,True,4,Moderate,175,2550,Female,Never,Composting,High,5
+80,32,Urban,Mostly Animal-Based,Rarely,Car,Non-Renewable,House,2150,Often,False,2,None,405,4650,Prefer not to say,Often,Landfill,None,1
+81,49,Suburban,Mostly Plant-Based,Often,Bike,Renewable,Apartment,1010,Sometimes,True,5,High,125,1850,Male,Rarely,Composting,High,5
+82,36,Urban,Balanced,Sometimes,Public Transit,Mixed,House,1570,Often,False,3,Low,305,3550,Female,Sometimes,Recycling,Moderate,3
+83,61,Rural,Mostly Animal-Based,Rarely,Car,Non-Renewable,Other,770,Always,False,1,None,445,4950,Male,Often,Landfill,None,1
+84,27,Urban,Mostly Plant-Based,Always,Walk,Renewable,House,1320,Rarely,True,4,Moderate,165,2250,Female,Never,Composting,High,5
+85,44,Suburban,Balanced,Often,Public Transit,Renewable,Apartment,1060,Sometimes,True,4,High,235,3050,Female,Sometimes,Recycling,Moderate,4
+86,58,Rural,Mostly Plant-Based,Sometimes,Bike,Mixed,House,1870,Often,True,3,Low,325,3850,Male,Rarely,Combination,Low,3
+87,31,Urban,Mostly Animal-Based,Rarely,Car,Non-Renewable,Other,655,Always,False,2,None,405,4550,Non-Binary,Often,Landfill,None,1
+88,48,Suburban,Mostly Plant-Based,Often,Walk,Renewable,House,1430,Sometimes,True,5,High,155,2000,Male,Rarely,Composting,High,5
+89,35,Urban,Balanced,Sometimes,Public Transit,Mixed,Apartment,940,Often,True,3,Moderate,285,3450,Male,Sometimes,Recycling,Moderate,3
+90,62,Rural,Mostly Plant-Based,Often,Walk,Renewable,House,1820,Sometimes,True,4,High,205,2850,Female,Rarely,Recycling,High,5
+91,22,Urban,Mostly Animal-Based,Rarely,Car,Non-Renewable,Apartment,1120,Often,False,2,None,365,4150,Male,Often,Landfill,None,1
+92,40,Suburban,Balanced,Sometimes,Bike,Mixed,House,1470,Sometimes,True,3,Moderate,315,3650,Non-Binary,Rarely,Combination,Moderate,3
+93,55,Rural,Mostly Plant-Based,Often,Walk,Renewable,Other,715,Rarely,True,4,High,185,2650,Female,Never,Composting,High,5
+94,33,Urban,Mostly Animal-Based,Rarely,Car,Non-Renewable,House,2180,Often,False,2,Low,425,4750,Male,Often,Landfill,Low,1
+95,46,Suburban,Mostly Plant-Based,Often,Public Transit,Renewable,Apartment,1030,Sometimes,True,4,Moderate,245,3150,Prefer not to say,Sometimes,Recycling,Moderate,4
+96,29,Urban,Balanced,Sometimes,Bike,Mixed,House,1520,Sometimes,True,3,Low,320,3700,Female,Rarely,Combination,Moderate,3
+97,56,Rural,Mostly Animal-Based,Rarely,Car,Non-Renewable,Other,755,Often,False,1,None,440,4900,Male,Often,Landfill,None,1
+98,23,Urban,Mostly Plant-Based,Always,Walk,Renewable,House,1270,Rarely,True,5,High,105,1500,Female,Never,Composting,High,5
+99,40,Suburban,Balanced,Often,Public Transit,Renewable,Apartment,1090,Sometimes,True,4,Moderate,250,3200,Female,Sometimes,Recycling,Moderate,4
+100,53,Rural,Mostly Plant-Based,Sometimes,Bike,Mixed,House,1940,Often,True,3,Low,345,3950,Male,Rarely,Combination,Low,3
+101,38,Urban,Mostly Plant-Based,Often,Walk,Renewable,House,1380,Rarely,True,4,Moderate,180,2300,Female,Never,Composting,High,5
+102,25,Suburban,Balanced,Sometimes,Public Transit,Mixed,Apartment,980,Sometimes,False,3,Low,295,3450,Male,Sometimes,Recycling,Moderate,3
+103,60,Rural,Mostly Plant-Based,Sometimes,Bike,Mixed,House,1920,Often,True,3,Moderate,340,3900,Female,Rarely,Combination,Moderate,4
+104,29,Urban,Mostly Animal-Based,Rarely,Car,Non-Renewable,Other,690,Always,False,2,None,420,4800,Prefer not to say,Often,Landfill,None,1
+105,47,Suburban,Mostly Plant-Based,Often,Public Transit,Renewable,House,1580,Sometimes,True,4,High,210,2800,Male,Rarely,Recycling,High,5
+106,34,Urban,Balanced,Sometimes,Bike,Mixed,Apartment,960,Often,True,3,Low,285,3350,Female,Sometimes,Combination,Moderate,3
+107,59,Rural,Mostly Animal-Based,Rarely,Car,Non-Renewable,House,2280,Always,False,1,None,465,5150,Male,Often,Landfill,None,1
+108,26,Urban,Mostly Plant-Based,Always,Walk,Renewable,Other,630,Rarely,True,5,High,105,1550,Female,Never,Composting,High,5
+109,43,Suburban,Balanced,Often,Public Transit,Renewable,House,1660,Sometimes,True,4,Moderate,225,2950,Female,Sometimes,Recycling,Moderate,4
+110,56,Rural,Mostly Plant-Based,Sometimes,Walk,Mixed,House,1990,Often,True,3,Moderate,365,4150,Male,Rarely,Combination,Moderate,4
+111,31,Urban,Mostly Animal-Based,Rarely,Car,Non-Renewable,Apartment,1140,Always,False,2,None,385,4350,Non-Binary,Often,Landfill,None,1
+112,48,Suburban,Mostly Plant-Based,Often,Bike,Renewable,House,1390,Sometimes,True,4,High,145,1950,Male,Rarely,Composting,High,5
+113,35,Urban,Balanced,Sometimes,Public Transit,Mixed,Apartment,970,Often,False,3,Low,295,3400,Female,Sometimes,Recycling,Moderate,3
+114,60,Rural,Mostly Animal-Based,Rarely,Car,Non-Renewable,Other,765,Always,False,1,None,435,4900,Male,Often,Landfill,None,1
+115,27,Urban,Mostly Plant-Based,Always,Walk,Renewable,House,1310,Rarely,True,5,High,115,1650,Female,Never,Composting,High,5
+116,44,Suburban,Balanced,Often,Public Transit,Renewable,Apartment,1090,Sometimes,True,4,Moderate,240,3000,Male,Sometimes,Recycling,Moderate,4
+117,59,Rural,Mostly Plant-Based,Sometimes,Bike,Mixed,House,1860,Often,True,3,Low,330,3800,Female,Rarely,Combination,Low,3
+118,32,Urban,Mostly Animal-Based,Rarely,Car,Non-Renewable,Other,665,Always,False,2,None,415,4650,Male,Often,Landfill,None,1
+119,49,Suburban,Mostly Plant-Based,Often,Walk,Renewable,House,1440,Rarely,True,5,High,135,1900,Female,Never,Composting,High,5
+120,36,Urban,Balanced,Sometimes,Public Transit,Mixed,Apartment,950,Often,True,3,Low,280,3300,Male,Sometimes,Recycling,Moderate,3
+121,61,Rural,Mostly Animal-Based,Rarely,Car,Non-Renewable,House,2290,Always,False,1,None,475,5250,Non-Binary,Often,Landfill,None,1
+122,28,Urban,Mostly Plant-Based,Always,Bike,Renewable,Other,640,Rarely,True,5,High,100,1450,Female,Never,Composting,High,5
+123,45,Suburban,Balanced,Often,Public Transit,Renewable,House,1690,Sometimes,True,4,Moderate,220,2900,Female,Sometimes,Recycling,Moderate,4
+124,58,Rural,Mostly Plant-Based,Sometimes,Walk,Mixed,House,1970,Often,True,3,Low,355,4000,Male,Rarely,Combination,Low,3
+125,31,Urban,Mostly Animal-Based,Rarely,Car,Non-Renewable,Apartment,1150,Always,False,2,None,395,4450,Male,Often,Landfill,None,1
+126,42,Urban,Mostly Plant-Based,Often,Walk,Renewable,House,1360,Rarely,True,4,Moderate,190,2400,Female,Never,Composting,High,5
+127,27,Suburban,Balanced,Sometimes,Public Transit,Mixed,Apartment,990,Sometimes,True,3,Low,300,3500,Male,Sometimes,Recycling,Moderate,3
+128,59,Rural,Mostly Plant-Based,Sometimes,Bike,Mixed,House,1910,Often,True,3,Moderate,335,3850,Female,Rarely,Combination,Moderate,4
+129,32,Urban,Mostly Animal-Based,Rarely,Car,Non-Renewable,Other,680,Always,False,2,None,415,4750,Prefer not to say,Often,Landfill,None,1
+130,48,Suburban,Mostly Plant-Based,Often,Public Transit,Renewable,House,1590,Sometimes,True,4,High,215,2850,Male,Rarely,Recycling,High,5
+131,35,Urban,Balanced,Sometimes,Bike,Mixed,Apartment,975,Often,False,3,Low,290,3400,Female,Sometimes,Combination,Moderate,3
+132,60,Rural,Mostly Animal-Based,Rarely,Car,Non-Renewable,House,2295,Always,False,1,None,470,5200,Male,Often,Landfill,None,1
+133,26,Urban,Mostly Plant-Based,Always,Walk,Renewable,Other,625,Rarely,True,5,High,100,1450,Female,Never,Composting,High,5
+134,43,Suburban,Balanced,Often,Public Transit,Renewable,House,1670,Sometimes,True,4,Moderate,230,2950,Female,Sometimes,Recycling,Moderate,4
+135,56,Rural,Mostly Plant-Based,Sometimes,Walk,Mixed,House,2000,Often,True,3,Moderate,360,4100,Male,Rarely,Combination,Moderate,4
+136,31,Urban,Mostly Animal-Based,Rarely,Car,Non-Renewable,Apartment,1135,Always,False,2,None,380,4300,Non-Binary,Often,Landfill,None,1
+137,48,Suburban,Mostly Plant-Based,Often,Bike,Renewable,House,1380,Rarely,True,4,High,140,1900,Female,Never,Composting,High,5
+138,35,Urban,Balanced,Sometimes,Public Transit,Mixed,Apartment,965,Often,True,3,Low,295,3450,Male,Sometimes,Recycling,Moderate,3
+139,60,Rural,Mostly Animal-Based,Rarely,Car,Non-Renewable,Other,775,Always,False,1,None,440,4950,Male,Often,Landfill,None,1
+140,27,Urban,Mostly Plant-Based,Always,Walk,Renewable,House,1305,Rarely,True,5,High,110,1600,Female,Never,Composting,High,5
+141,44,Suburban,Balanced,Often,Public Transit,Renewable,Apartment,1080,Sometimes,True,4,Moderate,235,3050,Male,Sometimes,Recycling,Moderate,4
+142,59,Rural,Mostly Plant-Based,Sometimes,Bike,Mixed,House,1890,Often,True,3,Low,335,3950,Female,Rarely,Combination,Low,3
+143,32,Urban,Mostly Animal-Based,Rarely,Car,Non-Renewable,Other,675,Always,False,2,None,410,4600,Male,Often,Landfill,None,1
+144,49,Suburban,Mostly Plant-Based,Often,Walk,Renewable,House,1470,Rarely,True,4,High,155,2050,Female,Never,Composting,High,5
+145,36,Urban,Balanced,Sometimes,Public Transit,Mixed,Apartment,985,Often,True,3,Moderate,290,3400,Male,Sometimes,Recycling,Moderate,3
+146,61,Rural,Mostly Animal-Based,Rarely,Car,Non-Renewable,House,2310,Always,False,1,None,470,5200,Non-Binary,Often,Landfill,None,1
+147,28,Urban,Mostly Plant-Based,Always,Bike,Renewable,Other,635,Rarely,True,5,High,95,1350,Female,Never,Composting,High,5
+148,45,Suburban,Balanced,Often,Public Transit,Renewable,House,1685,Sometimes,True,4,Moderate,225,2950,Female,Sometimes,Recycling,Moderate,4
+149,58,Rural,Mostly Plant-Based,Sometimes,Walk,Mixed,House,1995,Often,True,3,Low,360,4100,Male,Rarely,Combination,Low,3
+150,31,Urban,Mostly Animal-Based,Rarely,Car,Non-Renewable,Apartment,1145,Always,False,2,None,385,4350,Male,Often,Landfill,None,1
+151,40,Urban,Mostly Plant-Based,Often,Bike,Renewable,House,1370,Rarely,True,4,Moderate,185,2350,Male,Never,Composting,High,5
+152,26,Suburban,Balanced,Sometimes,Public Transit,Mixed,Apartment,985,Sometimes,True,3,Low,305,3550,Female,Sometimes,Recycling,Moderate,3
+153,59,Rural,Mostly Plant-Based,Sometimes,Bike,Mixed,House,1900,Often,True,3,Moderate,340,3900,Non-Binary,Rarely,Combination,Moderate,4
+154,33,Urban,Mostly Animal-Based,Rarely,Car,Non-Renewable,Other,695,Always,False,2,None,425,4850,Male,Often,Landfill,None,1
+155,47,Suburban,Mostly Plant-Based,Often,Public Transit,Renewable,House,1570,Sometimes,True,4,High,205,2850,Female,Rarely,Recycling,High,5
+156,34,Urban,Balanced,Sometimes,Bike,Mixed,Apartment,965,Often,True,3,Low,290,3450,Male,Sometimes,Combination,Moderate,3
+157,59,Rural,Mostly Animal-Based,Rarely,Car,Non-Renewable,House,2305,Always,False,1,None,460,5100,Prefer not to say,Often,Landfill,None,1
+158,26,Urban,Mostly Plant-Based,Always,Walk,Renewable,Other,635,Rarely,True,5,High,105,1500,Female,Never,Composting,High,5
+159,43,Suburban,Balanced,Often,Public Transit,Renewable,House,1655,Sometimes,True,4,Moderate,235,3000,Male,Sometimes,Recycling,Moderate,4
+160,56,Rural,Mostly Plant-Based,Sometimes,Walk,Mixed,House,1980,Often,True,3,Low,360,4050,Female,Rarely,Combination,Low,3
+161,31,Urban,Mostly Animal-Based,Rarely,Car,Non-Renewable,Apartment,1140,Always,False,2,None,385,4350,Male,Often,Landfill,None,1
+162,48,Suburban,Mostly Plant-Based,Often,Bike,Renewable,House,1395,Rarely,True,4,High,140,1950,Female,Never,Composting,High,5
+163,35,Urban,Balanced,Sometimes,Public Transit,Mixed,Apartment,975,Often,False,3,Low,295,3450,Male,Sometimes,Recycling,Moderate,3
+164,60,Rural,Mostly Animal-Based,Rarely,Car,Non-Renewable,Other,770,Always,False,1,None,440,4950,Male,Often,Landfill,None,1
+165,27,Urban,Mostly Plant-Based,Always,Walk,Renewable,House,1315,Rarely,True,5,High,110,1650,Female,Never,Composting,High,5
+166,44,Suburban,Balanced,Often,Public Transit,Renewable,Apartment,1085,Sometimes,True,4,Moderate,240,3050,Prefer not to say,Sometimes,Recycling,Moderate,4
+167,59,Rural,Mostly Plant-Based,Sometimes,Bike,Mixed,House,1895,Often,True,3,Low,330,3850,Female,Rarely,Combination,Low,3
+168,32,Urban,Mostly Animal-Based,Rarely,Car,Non-Renewable,Other,670,Always,False,2,None,415,4600,Male,Often,Landfill,None,1
+169,49,Suburban,Mostly Plant-Based,Often,Walk,Renewable,House,1460,Rarely,True,5,High,150,2000,Female,Never,Composting,High,5
+170,36,Urban,Balanced,Sometimes,Public Transit,Mixed,Apartment,980,Often,True,3,Low,285,3350,Male,Sometimes,Recycling,Moderate,3
+171,61,Rural,Mostly Animal-Based,Rarely,Car,Non-Renewable,House,2300,Always,False,1,None,470,5200,Non-Binary,Often,Landfill,None,1
+172,28,Urban,Mostly Plant-Based,Always,Bike,Renewable,Other,640,Rarely,True,5,High,95,1300,Female,Never,Composting,High,5
+173,45,Suburban,Balanced,Often,Public Transit,Renewable,House,1695,Sometimes,True,4,Moderate,220,2900,Female,Sometimes,Recycling,Moderate,4
+174,58,Rural,Mostly Plant-Based,Sometimes,Walk,Mixed,House,1965,Often,True,3,Moderate,350,4000,Male,Rarely,Combination,Moderate,4
+175,31,Urban,Mostly Animal-Based,Rarely,Car,Non-Renewable,Apartment,1155,Always,False,2,None,390,4400,Male,Often,Landfill,None,1
+176,41,Urban,Mostly Plant-Based,Often,Walk,Renewable,Apartment,1020,Sometimes,True,4,Moderate,195,2450,Female,Never,Composting,High,5
+177,26,Suburban,Balanced,Sometimes,Public Transit,Mixed,House,1540,Often,True,3,Low,305,3550,Male,Sometimes,Recycling,Moderate,3
+178,59,Rural,Mostly Plant-Based,Sometimes,Bike,Mixed,House,1915,Often,True,3,Low,345,3950,Female,Rarely,Combination,Low,3
+179,32,Urban,Mostly Animal-Based,Rarely,Car,Non-Renewable,Other,685,Always,False,2,None,420,4800,Male,Often,Landfill,None,1
+180,48,Suburban,Mostly Plant-Based,Often,Public Transit,Renewable,House,1585,Sometimes,True,4,High,210,2800,Female,Rarely,Recycling,High,5
+181,35,Urban,Balanced,Sometimes,Bike,Mixed,Apartment,970,Often,True,3,Low,295,3450,Male,Sometimes,Combination,Moderate,3
+182,60,Rural,Mostly Animal-Based,Rarely,Car,Non-Renewable,House,2315,Always,False,1,None,465,5150,Prefer not to say,Often,Landfill,None,1
+183,26,Urban,Mostly Plant-Based,Always,Walk,Renewable,Other,630,Rarely,True,5,High,100,1400,Female,Never,Composting,High,5
+184,43,Suburban,Balanced,Often,Public Transit,Renewable,House,1665,Sometimes,True,4,Moderate,230,2900,Female,Sometimes,Recycling,Moderate,4
+185,56,Rural,Mostly Plant-Based,Sometimes,Walk,Mixed,House,1995,Often,True,3,Moderate,355,4050,Male,Rarely,Combination,Moderate,4
+186,31,Urban,Mostly Animal-Based,Rarely,Car,Non-Renewable,Apartment,1145,Always,False,2,None,385,4350,Non-Binary,Often,Landfill,None,1
+187,48,Suburban,Mostly Plant-Based,Often,Bike,Renewable,House,1395,Rarely,True,4,High,145,1950,Female,Never,Composting,High,5
+188,35,Urban,Balanced,Sometimes,Public Transit,Mixed,Apartment,975,Often,False,3,Low,290,3400,Male,Sometimes,Recycling,Moderate,3
+189,60,Rural,Mostly Animal-Based,Rarely,Car,Non-Renewable,Other,760,Always,False,1,None,445,4950,Male,Often,Landfill,None,1
+190,27,Urban,Mostly Plant-Based,Always,Walk,Renewable,House,1310,Rarely,True,5,High,110,1600,Female,Never,Composting,High,5
+191,44,Suburban,Balanced,Often,Public Transit,Renewable,Apartment,1085,Sometimes,True,4,Moderate,245,3100,Male,Sometimes,Recycling,Moderate,4
+192,59,Rural,Mostly Plant-Based,Sometimes,Bike,Mixed,House,1895,Often,True,3,Low,335,3950,Female,Rarely,Combination,Low,3
+193,32,Urban,Mostly Animal-Based,Rarely,Car,Non-Renewable,Other,675,Always,False,2,None,410,4650,Male,Often,Landfill,None,1
+194,49,Suburban,Mostly Plant-Based,Often,Walk,Renewable,House,1465,Rarely,True,4,High,155,2050,Female,Never,Composting,High,5
+195,36,Urban,Balanced,Sometimes,Public Transit,Mixed,Apartment,980,Often,True,3,Low,285,3350,Male,Sometimes,Recycling,Moderate,3
+196,61,Rural,Mostly Animal-Based,Rarely,Car,Non-Renewable,House,2305,Always,False,1,None,475,5250,Non-Binary,Often,Landfill,None,1
+197,28,Urban,Mostly Plant-Based,Always,Bike,Renewable,Other,640,Rarely,True,5,High,100,1450,Female,Never,Composting,High,5
+198,45,Suburban,Balanced,Often,Public Transit,Renewable,House,1690,Sometimes,True,4,Moderate,220,2900,Female,Sometimes,Recycling,Moderate,4
+199,58,Rural,Mostly Plant-Based,Sometimes,Walk,Mixed,House,1970,Often,True,3,Low,350,4000,Male,Rarely,Combination,Low,3
+200,31,Urban,Mostly Animal-Based,Rarely,Car,Non-Renewable,Apartment,1150,Always,False,2,None,395,4450,Male,Often,Landfill,None,1
+201,35,Urban,Mostly Plant-Based,Often,Bike,Renewable,Apartment,800,Rarely,True,5,High,100,1500,Female,Rarely,Composting,High,5
+202,28,Suburban,Balanced,Sometimes,Public Transit,Mixed,House,1500,Sometimes,True,4,Moderate,250,3000,Male,Sometimes,Recycling,Moderate,4
+203,65,Rural,Mostly Animal-Based,Rarely,Car,Non-Renewable,House,2500,Often,False,2,Low,400,4500,Male,Often,Landfill,Low,1
+204,42,Urban,Mostly Plant-Based,Often,Walk,Renewable,Apartment,950,Sometimes,True,4,Moderate,150,2000,Female,Rarely,Recycling,High,5
+205,31,Suburban,Balanced,Sometimes,Public Transit,Mixed,House,1800,Often,True,3,Low,300,3500,Non-Binary,Sometimes,Combination,Moderate,3
+206,58,Rural,Mostly Animal-Based,Rarely,Car,Non-Renewable,House,2200,Always,False,1,None,450,5000,Male,Often,Landfill,None,1
+207,25,Urban,Mostly Plant-Based,Always,Bike,Renewable,Other,600,Rarely,True,5,High,80,1200,Female,Never,Composting,High,5
+208,39,Suburban,Balanced,Often,Public Transit,Renewable,House,1600,Sometimes,True,4,Moderate,200,2800,Female,Sometimes,Recycling,Moderate,4
+209,52,Rural,Mostly Plant-Based,Sometimes,Walk,Mixed,House,2000,Often,True,3,Low,350,4000,Male,Rarely,Combination,Low,3
+210,29,Urban,Mostly Animal-Based,Rarely,Car,Non-Renewable,Apartment,1100,Always,False,2,None,380,4200,Non-Binary,Often,Landfill,None,1
+211,48,Suburban,Mostly Plant-Based,Often,Bike,Renewable,House,1400,Sometimes,True,5,High,120,1800,Male,Rarely,Composting,High,5
+212,36,Urban,Balanced,Sometimes,Public Transit,Mixed,Apartment,900,Often,False,3,Low,280,3200,Female,Sometimes,Recycling,Moderate,3
+213,61,Rural,Mostly Animal-Based,Rarely,Car,Non-Renewable,Other,750,Always,False,1,None,420,4800,Male,Often,Landfill,None,1
+214,27,Urban,Mostly Plant-Based,Always,Walk,Renewable,House,1300,Rarely,True,4,Moderate,160,2200,Female,Never,Composting,High,5
+215,44,Suburban,Balanced,Often,Public Transit,Renewable,Apartment,1050,Sometimes,True,4,Moderate,220,3000,Prefer not to say,Sometimes,Recycling,Moderate,4
+216,59,Rural,Mostly Plant-Based,Sometimes,Bike,Mixed,House,1900,Often,True,3,Low,320,3800,Female,Rarely,Combination,Low,3
+217,32,Urban,Mostly Animal-Based,Rarely,Car,Non-Renewable,Other,650,Always,False,2,None,400,4600,Male,Often,Landfill,None,1
+218,50,Suburban,Mostly Plant-Based,Often,Walk,Renewable,House,1550,Rarely,True,5,High,130,1900,Female,Never,Composting,High,5
+219,24,Urban,Balanced,Sometimes,Public Transit,Mixed,Apartment,850,Often,True,3,Moderate,260,3100,Male,Sometimes,Recycling,Moderate,3
+220,63,Rural,Mostly Animal-Based,Rarely,Car,Non-Renewable,House,2400,Always,False,1,None,480,5200,Non-Binary,Often,Landfill,None,1
+221,57,Urban,Balanced,Rarely,Car,Mixed,House,2742,Always,False,2,Low,131,571,Non-Binary,Rarely,Landfill,High,2
+222,27,Urban,Mostly Animal-Based,Often,Car,Renewable,Apartment,1355,Always,False,3,Moderate,270,2727,Female,Rarely,Composting,Moderate,5
+223,68,Suburban,Mostly Plant-Based,Rarely,Car,Renewable,House,2240,Always,False,3,Low,153,3465,Prefer not to say,Often,Composting,None,2
+224,61,Rural,Mostly Plant-Based,Sometimes,Walk,Renewable,Apartment,1453,Rarely,False,4,None,71,3414,Prefer not to say,Sometimes,Combination,Moderate,5
+225,37,Rural,Mostly Animal-Based,Rarely,Public Transit,Renewable,Apartment,440,Rarely,True,3,None,188,4364,Prefer not to say,Often,Composting,Moderate,4
+226,48,Urban,Mostly Animal-Based,Always,Walk,Non-Renewable,Apartment,2567,Often,True,1,None,422,4270,Prefer not to say,Rarely,Landfill,Low,1
+227,49,Rural,Mostly Animal-Based,Often,Bike,Non-Renewable,Other,2402,Always,False,4,None,414,3608,Male,Sometimes,Recycling,High,3
+228,20,Rural,Mostly Plant-Based,Always,Walk,Renewable,Other,2095,Sometimes,True,2,Low,123,1099,Non-Binary,Sometimes,Combination,Low,5
+229,40,Rural,Balanced,Often,Bike,Non-Renewable,Apartment,713,Sometimes,True,3,None,469,1070,Prefer not to say,Rarely,Combination,None,4
+230,66,Suburban,Mostly Animal-Based,Rarely,Public Transit,Mixed,Other,1233,Rarely,True,1,Moderate,80,2824,Non-Binary,Often,Composting,Moderate,4
+231,51,Rural,Balanced,Often,Public Transit,Renewable,Apartment,1995,Always,True,2,High,409,4638,Male,Often,Combination,None,2
+232,61,Urban,Mostly Animal-Based,Rarely,Car,Renewable,Apartment,2914,Often,False,3,None,220,4483,Prefer not to say,Rarely,Composting,Low,1
+233,51,Rural,Balanced,Often,Walk,Renewable,Other,613,Often,True,2,High,351,3897,Female,Rarely,Landfill,Low,5
+234,60,Urban,Mostly Plant-Based,Often,Car,Mixed,Other,517,Rarely,False,2,None,244,2455,Male,Never,Combination,None,2
+235,19,Rural,Balanced,Always,Public Transit,Mixed,Apartment,897,Rarely,False,5,Low,318,4078,Prefer not to say,Sometimes,Combination,None,3
+236,56,Urban,Mostly Animal-Based,Always,Bike,Mixed,Other,1129,Sometimes,True,4,None,431,3570,Male,Rarely,Combination,None,4
+237,50,Suburban,Balanced,Sometimes,Bike,Mixed,Other,2747,Often,True,2,Low,201,3548,Female,Often,Recycling,Low,4
+238,37,Urban,Mostly Plant-Based,Sometimes,Walk,Non-Renewable,Apartment,1657,Always,True,3,Low,466,3373,Prefer not to say,Sometimes,Composting,Low,5
+239,59,Urban,Balanced,Rarely,Walk,Mixed,Other,2857,Often,True,2,Low,168,4203,Male,Never,Recycling,None,5
+240,56,Rural,Balanced,Often,Public Transit,Mixed,House,2219,Always,True,2,Moderate,205,1622,Male,Never,Recycling,High,5
+241,30,Urban,Balanced,Rarely,Walk,Mixed,Other,2603,Always,True,1,Moderate,492,3681,Female,Sometimes,Composting,High,5
+242,24,Rural,Balanced,Rarely,Bike,Non-Renewable,House,1547,Sometimes,False,5,High,178,4870,Non-Binary,Never,Composting,Low,5
+243,56,Rural,Balanced,Rarely,Bike,Mixed,Other,704,Often,False,3,Low,138,565,Female,Sometimes,Combination,None,3
+244,24,Urban,Balanced,Sometimes,Car,Renewable,House,651,Rarely,False,2,None,430,1176,Male,Never,Composting,None,1
+245,43,Rural,Mostly Plant-Based,Sometimes,Car,Non-Renewable,Other,421,Sometimes,False,1,Moderate,372,1641,Female,Rarely,Composting,Moderate,5
+246,56,Suburban,Mostly Animal-Based,Sometimes,Walk,Non-Renewable,Apartment,1594,Sometimes,False,2,High,469,4546,Non-Binary,Often,Recycling,Low,1
+247,18,Urban,Mostly Animal-Based,Always,Bike,Mixed,Apartment,607,Rarely,False,2,Low,395,617,Non-Binary,Often,Recycling,Low,3
+248,43,Suburban,Mostly Animal-Based,Often,Public Transit,Renewable,House,1860,Often,True,3,Low,379,3305,Non-Binary,Never,Landfill,High,5
+249,31,Suburban,Mostly Plant-Based,Sometimes,Public Transit,Renewable,House,2997,Sometimes,False,2,High,413,4120,Non-Binary,Never,Composting,High,5
+250,73,Rural,Mostly Plant-Based,Sometimes,Bike,Renewable,Apartment,2505,Often,True,4,Moderate,292,757,Non-Binary,Often,Recycling,High,5
+251,68,Rural,Mostly Plant-Based,Often,Walk,Renewable,House,1987,Rarely,True,4,High,159,2059,Prefer not to say,Rarely,Composting,High,5
+252,21,Urban,Mostly Plant-Based,Sometimes,Bike,Renewable,House,2819,Often,True,3,Low,260,4895,Female,Often,Recycling,Moderate,2
+253,69,Suburban,Mostly Animal-Based,Rarely,Bike,Mixed,Other,2433,Sometimes,False,2,Moderate,479,4055,Male,Rarely,Recycling,High,2
+254,30,Rural,Mostly Animal-Based,Sometimes,Public Transit,Non-Renewable,House,2850,Often,False,1,High,486,1055,Non-Binary,Often,Recycling,None,1
+255,44,Suburban,Mostly Plant-Based,Often,Public Transit,Mixed,House,1850,Often,True,2,Moderate,231,1899,Male,Never,Combination,Moderate,4
+256,50,Urban,Mostly Animal-Based,Rarely,Public Transit,Mixed,Other,1522,Sometimes,True,2,Low,335,3749,Male,Often,Landfill,None,2
+257,58,Rural,Balanced,Often,Bike,Renewable,Apartment,1040,Rarely,True,3,Moderate,262,4322,Female,Sometimes,Composting,None,3
+258,31,Suburban,Balanced,Sometimes,Public Transit,Non-Renewable,House,1682,Often,True,1,Moderate,414,1745,Male,Rarely,Recycling,Low,2
+259,63,Urban,Mostly Plant-Based,Often,Public Transit,Mixed,House,1577,Sometimes,True,2,Moderate,288,1987,Male,Often,Recycling,Moderate,3
+260,47,Rural,Mostly Plant-Based,Often,Bike,Non-Renewable,House,1859,Rarely,False,5,Low,170,2966,Male,Rarely,Combination,Low,3
+261,75,Suburban,Mostly Plant-Based,Rarely,Car,Non-Renewable,Apartment,2766,Often,True,3,High,188,4923,Female,Rarely,Landfill,Low,2
+262,39,Rural,Balanced,Always,Car,Non-Renewable,Other,1544,Sometimes,False,2,Moderate,470,2771,Prefer not to say,Rarely,Combination,High,2
+263,42,Urban,Mostly Plant-Based,Rarely,Walk,Renewable,Apartment,2439,Always,True,2,High,380,1524,Non-Binary,Often,Landfill,High,4
+264,44,Suburban,Mostly Plant-Based,Always,Bike,Renewable,Apartment,2042,Sometimes,False,3,High,484,4232,Female,Often,Composting,Low,4
+265,22,Urban,Mostly Animal-Based,Sometimes,Car,Renewable,Other,583,Sometimes,False,2,Low,394,3390,Male,Often,Recycling,High,2
+266,24,Rural,Mostly Plant-Based,Often,Walk,Non-Renewable,Apartment,2618,Rarely,True,2,High,479,3944,Female,Often,Recycling,High,3
+267,71,Suburban,Mostly Animal-Based,Rarely,Car,Renewable,Other,599,Sometimes,False,4,High,374,1429,Female,Never,Composting,Low,2
+268,64,Urban,Mostly Plant-Based,Often,Bike,Mixed,House,590,Often,True,5,Moderate,78,4035,Non-Binary,Often,Landfill,Low,4
+269,67,Rural,Mostly Animal-Based,Sometimes,Car,Mixed,House,1344,Rarely,False,4,Moderate,118,2120,Female,Never,Landfill,High,2
+270,43,Urban,Balanced,Often,Walk,Non-Renewable,Apartment,1459,Rarely,False,1,None,387,873,Male,Rarely,Landfill,Low,2
+271,24,Rural,Balanced,Often,Public Transit,Mixed,House,1472,Often,True,2,Low,376,1440,Female,Never,Composting,None,3
+272,45,Suburban,Mostly Animal-Based,Sometimes,Walk,Renewable,House,808,Sometimes,True,5,High,198,4080,Male,Rarely,Recycling,High,4
+273,63,Urban,Mostly Animal-Based,Always,Public Transit,Mixed,House,2815,Often,False,1,High,487,4424,Female,Never,Composting,Low,2
+274,49,Rural,Balanced,Always,Car,Renewable,House,2000,Often,True,2,High,201,3864,Female,Often,Landfill,Low,2
+275,58,Suburban,Balanced,Rarely,Car,Non-Renewable,Apartment,1327,Sometimes,True,5,High,379,3216,Female,Rarely,Composting,High,3
+276,48,Urban,Mostly Plant-Based,Often,Car,Renewable,Apartment,2445,Often,True,5,Low,178,1936,Non-Binary,Often,Combination,Moderate,4
+277,27,Urban,Mostly Plant-Based,Always,Car,Renewable,House,753,Often,True,2,High,303,1808,Prefer not to say,Sometimes,Recycling,None,3
+278,74,Suburban,Mostly Plant-Based,Often,Public Transit,Non-Renewable,Apartment,837,Sometimes,False,2,Low,448,2078,Prefer not to say,Sometimes,Composting,High,3
+279,35,Urban,Mostly Plant-Based,Rarely,Walk,Non-Renewable,Other,2859,Always,True,5,High,256,4012,Prefer not to say,Often,Combination,Moderate,4
+280,36,Rural,Balanced,Often,Bike,Non-Renewable,House,1699,Often,False,1,Moderate,207,1985,Female,Sometimes,Combination,High,3
+281,73,Urban,Mostly Animal-Based,Sometimes,Walk,Renewable,Apartment,1771,Always,False,1,High,358,1923,Female,Rarely,Recycling,Moderate,2
+282,50,Rural,Mostly Plant-Based,Often,Public Transit,Renewable,House,1809,Sometimes,False,4,High,461,3417,Female,Rarely,Landfill,High,4
+283,56,Suburban,Balanced,Rarely,Car,Non-Renewable,Other,1435,Often,False,2,Moderate,298,2206,Male,Rarely,Composting,Moderate,2
+284,49,Suburban,Mostly Animal-Based,Often,Bike,Renewable,House,2819,Always,True,5,Moderate,458,3492,Prefer not to say,Never,Composting,High,4
+285,71,Rural,Balanced,Often,Car,Renewable,Other,2405,Rarely,True,1,High,319,4425,Female,Rarely,Combination,Moderate,5
+286,59,Urban,Balanced,Rarely,Bike,Mixed,Apartment,661,Rarely,False,5,Low,490,3560,Female,Often,Recycling,Moderate,3
+287,45,Rural,Mostly Animal-Based,Often,Public Transit,Mixed,Apartment,2602,Rarely,False,4,None,291,979,Non-Binary,Never,Recycling,None,4
+288,37,Urban,Mostly Animal-Based,Always,Bike,Renewable,Apartment,483,Often,False,4,Moderate,262,3256,Male,Rarely,Recycling,Low,5
+289,66,Urban,Balanced,Always,Public Transit,Renewable,Other,850,Always,True,5,Low,289,3544,Female,Never,Composting,None,5
+290,28,Urban,Balanced,Sometimes,Public Transit,Renewable,Other,1351,Rarely,True,4,Low,58,3747,Male,Never,Composting,None,5
+291,66,Urban,Mostly Animal-Based,Rarely,Walk,Mixed,Apartment,2052,Often,False,1,High,344,2159,Non-Binary,Never,Composting,None,3
+292,44,Suburban,Mostly Plant-Based,Sometimes,Car,Mixed,House,2382,Rarely,True,5,Low,352,2558,Prefer not to say,Sometimes,Recycling,None,5
+293,28,Rural,Mostly Plant-Based,Sometimes,Bike,Mixed,Other,1978,Rarely,True,5,Low,69,3579,Female,Sometimes,Landfill,Moderate,5
+294,57,Rural,Mostly Plant-Based,Rarely,Bike,Non-Renewable,Other,560,Often,True,5,Low,105,946,Female,Never,Combination,None,5
+295,38,Urban,Balanced,Often,Walk,Mixed,Apartment,486,Often,True,5,None,79,2228,Male,Sometimes,Composting,None,5
+296,64,Suburban,Balanced,Always,Walk,Mixed,House,2038,Always,False,1,Low,436,4306,Prefer not to say,Sometimes,Combination,Moderate,3
+297,54,Rural,Mostly Animal-Based,Always,Car,Renewable,House,2988,Often,False,3,Moderate,414,689,Female,Never,Landfill,Low,3
+298,57,Suburban,Mostly Animal-Based,Often,Walk,Non-Renewable,Other,1305,Often,False,3,None,244,3847,Non-Binary,Often,Landfill,Low,1
+299,57,Urban,Mostly Animal-Based,Sometimes,Public Transit,Mixed,Other,2064,Often,False,1,None,200,2419,Male,Sometimes,Combination,Low,1
+300,61,Urban,Mostly Plant-Based,Sometimes,Car,Mixed,Apartment,1993,Sometimes,True,1,None,455,3588,Female,Rarely,Composting,Low,3
+301,67,Rural,Mostly Plant-Based,Rarely,Public Transit,Non-Renewable,Apartment,2606,Sometimes,True,1,None,335,4748,Female,Sometimes,Landfill,Low,1
+302,40,Suburban,Balanced,Sometimes,Car,Non-Renewable,House,1630,Rarely,False,5,High,67,1079,Female,Never,Recycling,High,5
+303,22,Urban,Mostly Plant-Based,Always,Car,Non-Renewable,Other,2711,Rarely,False,4,Moderate,364,1908,Prefer not to say,Rarely,Combination,Moderate,5
+304,33,Suburban,Mostly Plant-Based,Always,Bike,Non-Renewable,House,2094,Often,True,5,Moderate,59,3680,Non-Binary,Never,Composting,Low,5
+305,55,Suburban,Balanced,Often,Walk,Non-Renewable,Apartment,1758,Always,True,5,High,142,1556,Female,Often,Combination,None,5
+306,37,Urban,Balanced,Often,Car,Non-Renewable,House,545,Sometimes,False,5,Low,373,4028,Prefer not to say,Often,Composting,High,3
+307,73,Rural,Balanced,Often,Walk,Renewable,House,682,Always,True,2,Moderate,183,3360,Prefer not to say,Often,Landfill,Moderate,5
+308,31,Rural,Balanced,Sometimes,Car,Non-Renewable,Other,2160,Rarely,False,2,Moderate,486,1168,Prefer not to say,Never,Composting,Low,2
+309,41,Urban,Mostly Animal-Based,Often,Public Transit,Renewable,Apartment,464,Rarely,True,4,Low,159,4592,Prefer not to say,Rarely,Landfill,High,5
+310,63,Rural,Mostly Plant-Based,Always,Public Transit,Non-Renewable,Other,2204,Always,True,5,Moderate,436,2190,Prefer not to say,Rarely,Recycling,High,5
+311,48,Urban,Balanced,Always,Bike,Mixed,Apartment,920,Rarely,True,5,Moderate,142,3390,Female,Never,Composting,High,5
+312,52,Suburban,Mostly Plant-Based,Always,Bike,Renewable,Apartment,1968,Sometimes,False,2,None,260,792,Female,Rarely,Composting,Moderate,5
+313,48,Rural,Mostly Plant-Based,Sometimes,Bike,Renewable,Other,773,Always,False,5,Moderate,185,4686,Female,Sometimes,Landfill,Moderate,5
+314,39,Urban,Balanced,Often,Car,Mixed,House,1453,Sometimes,False,4,None,362,2145,Prefer not to say,Sometimes,Composting,Low,4
+315,72,Urban,Mostly Animal-Based,Always,Car,Non-Renewable,Apartment,2552,Always,False,4,High,147,1813,Non-Binary,Often,Composting,Low,4
+316,48,Urban,Mostly Plant-Based,Sometimes,Car,Mixed,Other,2650,Often,False,3,Moderate,396,1566,Non-Binary,Sometimes,Recycling,Low,5
+317,75,Suburban,Balanced,Always,Bike,Mixed,House,2273,Sometimes,True,3,High,216,1890,Male,Rarely,Combination,None,5
+318,38,Urban,Mostly Animal-Based,Sometimes,Walk,Renewable,Other,1909,Rarely,True,4,Low,254,3212,Prefer not to say,Never,Composting,Moderate,5
+319,63,Suburban,Mostly Animal-Based,Rarely,Car,Renewable,Apartment,1089,Sometimes,True,3,High,383,3338,Prefer not to say,Sometimes,Recycling,Moderate,5
+320,28,Suburban,Mostly Animal-Based,Always,Public Transit,Renewable,Other,2589,Rarely,True,5,Low,184,3334,Prefer not to say,Sometimes,Combination,Moderate,5
+321,20,Suburban,Mostly Plant-Based,Sometimes,Walk,Non-Renewable,House,650,Rarely,False,4,High,211,536,Female,Rarely,Landfill,None,5
+322,25,Urban,Mostly Animal-Based,Always,Bike,Mixed,Other,1373,Rarely,True,5,High,201,1941,Male,Never,Composting,None,5
+323,40,Suburban,Mostly Plant-Based,Rarely,Public Transit,Renewable,House,467,Sometimes,False,3,Low,176,4654,Non-Binary,Often,Recycling,High,4
+324,96,Urban,Balanced,Rarely,Bike,Non-Renewable,Other,2250,Sometimes,False,2,Low,218,2062,Male,Rarely,Combination,High,3
+325,40,Rural,Mostly Plant-Based,Often,Bike,Mixed,Other,2312,Sometimes,False,3,Low,382,2308,Female,Sometimes,Combination,High,5
+326,73,Urban,Balanced,Often,Car,Mixed,Apartment,2664,Sometimes,False,5,Low,498,4834,Male,Often,Landfill,Moderate,1
+327,46,Rural,Mostly Animal-Based,Always,Walk,Non-Renewable,House,416,Often,True,4,Low,164,1593,Prefer not to say,Sometimes,Recycling,High,5
+328,80,Suburban,Mostly Plant-Based,Rarely,Bike,Mixed,House,1676,Sometimes,False,1,High,111,4509,Male,Often,Landfill,None,1
+329,60,Urban,Mostly Plant-Based,Sometimes,Bike,Renewable,House,2941,Rarely,True,4,Moderate,111,3697,Non-Binary,Often,Recycling,Moderate,5
+330,25,Rural,Mostly Plant-Based,Rarely,Public Transit,Mixed,Apartment,2433,Rarely,False,1,High,324,879,Prefer not to say,Rarely,Combination,Low,4
+331,49,Urban,Balanced,Always,Car,Non-Renewable,House,1344,Rarely,True,3,None,425,3530,Prefer not to say,Rarely,Composting,Low,1
+332,32,Urban,Mostly Plant-Based,Often,Public Transit,Mixed,Apartment,2274,Often,False,1,Moderate,368,2473,Male,Rarely,Landfill,None,5
+333,38,Rural,Mostly Plant-Based,Rarely,Walk,Non-Renewable,Apartment,2869,Rarely,True,3,Moderate,111,2952,Female,Rarely,Composting,Low,4
+334,27,Suburban,Mostly Animal-Based,Rarely,Car,Non-Renewable,House,1052,Always,False,2,High,324,2701,Non-Binary,Often,Landfill,None,1
+335,62,Suburban,Mostly Animal-Based,Sometimes,Car,Renewable,Apartment,2941,Rarely,False,5,Moderate,478,3687,Non-Binary,Often,Landfill,Low,1
+336,66,Urban,Mostly Plant-Based,Often,Walk,Renewable,House,1344,Sometimes,False,1,Moderate,358,2792,Prefer not to say,Rarely,Landfill,High,4
+337,39,Rural,Balanced,Sometimes,Bike,Mixed,Other,2809,Sometimes,False,1,High,416,3779,Prefer not to say,Often,Composting,Low,3
+338,34,Suburban,Mostly Plant-Based,Rarely,Bike,Mixed,Other,407,Sometimes,False,5,High,303,767,Prefer not to say,Sometimes,Recycling,Low,5
+339,19,Suburban,Mostly Animal-Based,Sometimes,Public Transit,Non-Renewable,House,1540,Always,False,1,High,473,3218,Prefer not to say,Rarely,Landfill,High,1
+340,62,Urban,Mostly Animal-Based,Always,Public Transit,Non-Renewable,Apartment,1761,Sometimes,False,4,Moderate,469,4979,Non-Binary,Never,Recycling,High,4
+341,32,Rural,Mostly Animal-Based,Often,Walk,Mixed,Apartment,1183,Always,True,4,High,365,1047,Non-Binary,Often,Combination,None,5
+342,27,Rural,Mostly Animal-Based,Sometimes,Bike,Non-Renewable,House,920,Often,False,4,Low,125,3395,Male,Never,Composting,Moderate,5
+343,49,Suburban,Mostly Animal-Based,Sometimes,Bike,Mixed,Other,721,Sometimes,True,3,Low,267,3457,Female,Never,Composting,Low,5
+344,25,Rural,Mostly Plant-Based,Often,Bike,Non-Renewable,Other,1288,Sometimes,True,5,Moderate,150,545,Female,Rarely,Combination,None,5
+345,21,Suburban,Balanced,Rarely,Car,Mixed,Other,2429,Always,True,4,Moderate,351,1947,Prefer not to say,Rarely,Composting,None,5
+346,60,Urban,Mostly Plant-Based,Often,Bike,Renewable,House,2526,Sometimes,True,1,None,146,3794,Non-Binary,Sometimes,Composting,High,5
+347,26,Urban,Balanced,Rarely,Public Transit,Renewable,Apartment,1077,Rarely,False,3,Moderate,252,3414,Prefer not to say,Sometimes,Recycling,None,3
+348,27,Suburban,Mostly Animal-Based,Always,Bike,Mixed,Apartment,1458,Always,False,5,Low,439,3812,Non-Binary,Rarely,Recycling,None,4
+349,33,Suburban,Mostly Plant-Based,Sometimes,Bike,Mixed,House,1792,Often,False,3,None,266,3186,Non-Binary,Often,Composting,Low,3
+350,74,Urban,Balanced,Sometimes,Car,Non-Renewable,House,1083,Rarely,True,1,High,417,1438,Female,Rarely,Recycling,None,3
+351,70,Suburban,Mostly Plant-Based,Rarely,Walk,Non-Renewable,House,2118,Rarely,False,4,Moderate,182,3560,Female,Never,Landfill,Moderate,5
+352,52,Rural,Mostly Plant-Based,Often,Bike,Non-Renewable,House,2645,Always,True,1,None,148,3920,Male,Never,Combination,Moderate,5
+353,44,Rural,Mostly Plant-Based,Sometimes,Walk,Non-Renewable,Other,2956,Often,False,5,None,261,4174,Male,Sometimes,Recycling,High,5
+354,70,Suburban,Mostly Plant-Based,Sometimes,Walk,Mixed,Other,2020,Always,True,1,Moderate,442,3382,Prefer not to say,Never,Recycling,Low,5
+355,70,Rural,Mostly Animal-Based,Often,Car,Renewable,House,1228,Often,True,1,Moderate,151,1017,Prefer not to say,Rarely,Recycling,Moderate,5
+356,22,Urban,Balanced,Often,Walk,Non-Renewable,Apartment,1411,Always,True,2,Low,488,3429,Non-Binary,Never,Composting,None,4
+357,24,Rural,Balanced,Always,Car,Mixed,Other,1576,Always,False,1,High,126,2595,Prefer not to say,Sometimes,Composting,None,3
+358,45,Suburban,Mostly Plant-Based,Often,Bike,Renewable,House,777,Often,False,1,High,273,3015,Male,Sometimes,Landfill,High,5
+359,33,Urban,Mostly Plant-Based,Rarely,Walk,Non-Renewable,Other,751,Often,True,2,None,375,554,Prefer not to say,Often,Composting,High,4
+360,63,Urban,Balanced,Rarely,Bike,Non-Renewable,House,606,Often,False,3,Low,313,3455,Non-Binary,Sometimes,Combination,None,1
+361,63,Suburban,Mostly Plant-Based,Often,Car,Renewable,Apartment,813,Always,True,3,Moderate,136,1128,Female,Never,Landfill,Moderate,5
+362,35,Suburban,Mostly Animal-Based,Always,Public Transit,Mixed,House,879,Rarely,False,2,Moderate,423,4216,Prefer not to say,Never,Landfill,Low,1
+363,18,Suburban,Mostly Animal-Based,Often,Walk,Renewable,House,2350,Often,True,4,Low,142,3465,Male,Rarely,Recycling,High,5
+364,45,Urban,Mostly Plant-Based,Often,Bike,Renewable,House,1345,Rarely,True,4,High,123,1234,Female,Rarely,Composting,High,5
+365,32,Suburban,Balanced,Sometimes,Public Transit,Mixed,Apartment,987,Sometimes,True,3,Moderate,250,3000,Male,Sometimes,Recycling,Moderate,4
+366,65,Rural,Mostly Animal-Based,Rarely,Car,Non-Renewable,House,1876,Often,False,1,Low,400,4500,Male,Often,Landfill,Low,1
+367,28,Suburban,Balanced,Often,Bike,Renewable,Apartment,854,Sometimes,False,3,Moderate,280,3200,Non-Binary,Sometimes,Recycling,Moderate,3
+368,62,Rural,Mostly Plant-Based,Always,Walk,Renewable,House,1234,Rarely,True,4,High,150,2000,Female,Rarely,Recycling,High,4
+369,58,Urban,Balanced,Often,Car,Mixed,House,1450,Rarely,True,1,Moderate,69,2334,Female,Often,Landfill,High,5
+370,19,Rural,Mostly Plant-Based,Rarely,Bike,Mixed,Other,1444,Sometimes,True,4,None,81,3125,Non-Binary,Sometimes,Combination,Low,5
+371,40,Urban,Balanced,Often,Walk,Mixed,Other,1401,Sometimes,True,4,Moderate,441,4219,Prefer not to say,Never,Composting,High,5
+372,23,Urban,Balanced,Often,Car,Non-Renewable,Other,1652,Rarely,True,4,None,171,1485,Non-Binary,Rarely,Composting,Low,5
+373,38,Rural,Balanced,Always,Car,Mixed,House,1058,Rarely,False,3,High,89,3638,Female,Often,Landfill,Moderate,3
+374,36,Rural,Balanced,Always,Car,Renewable,Apartment,2556,Always,True,2,Moderate,145,3898,Prefer not to say,Rarely,Combination,Moderate,5
+375,71,Urban,Balanced,Rarely,Public Transit,Non-Renewable,House,1433,Sometimes,True,4,None,128,3641,Prefer not to say,Sometimes,Landfill,High,3
+376,21,Rural,Balanced,Sometimes,Public Transit,Renewable,House,462,Always,False,5,None,324,3814,Prefer not to say,Rarely,Combination,Low,4
+377,64,Suburban,Mostly Animal-Based,Always,Public Transit,Renewable,Apartment,2375,Sometimes,False,2,None,317,931,Female,Rarely,Recycling,High,5
+378,27,Rural,Mostly Animal-Based,Rarely,Public Transit,Mixed,House,934,Always,True,5,Moderate,262,1159,Male,Often,Recycling,None,4
+379,67,Suburban,Mostly Plant-Based,Sometimes,Public Transit,Renewable,House,2424,Rarely,False,4,None,360,2838,Prefer not to say,Often,Composting,Low,4
+380,59,Suburban,Balanced,Always,Bike,Mixed,House,830,Rarely,False,2,Low,475,4722,Female,Rarely,Recycling,Low,3
+381,66,Urban,Mostly Animal-Based,Often,Walk,Mixed,Other,1917,Often,False,5,High,188,614,Prefer not to say,Sometimes,Landfill,Low,5
+382,59,Suburban,Mostly Animal-Based,Often,Bike,Mixed,Other,818,Rarely,False,2,Low,197,3022,Male,Sometimes,Composting,Moderate,5
+383,58,Rural,Mostly Plant-Based,Sometimes,Car,Mixed,Apartment,1769,Often,False,2,None,135,794,Female,Rarely,Landfill,High,3
+384,62,Urban,Mostly Animal-Based,Sometimes,Car,Renewable,House,1637,Rarely,False,4,Low,158,3134,Female,Rarely,Landfill,High,4
+385,36,Rural,Balanced,Rarely,Car,Mixed,Apartment,2055,Rarely,True,2,High,302,4637,Prefer not to say,Rarely,Recycling,High,4
+386,56,Suburban,Balanced,Sometimes,Public Transit,Non-Renewable,Apartment,1910,Sometimes,True,1,None,357,1978,Non-Binary,Often,Recycling,Low,2
+387,73,Rural,Balanced,Always,Walk,Mixed,House,1659,Rarely,False,4,None,377,3937,Male,Never,Composting,High,5
+388,56,Rural,Balanced,Rarely,Walk,Renewable,Other,1662,Often,True,2,None,285,923,Female,Rarely,Composting,Moderate,5
+389,42,Urban,Mostly Plant-Based,Always,Walk,Non-Renewable,House,2122,Often,False,2,Low,267,2079,Non-Binary,Rarely,Landfill,Moderate,5
+390,44,Rural,Mostly Animal-Based,Often,Walk,Non-Renewable,Other,1691,Always,False,5,High,299,538,Non-Binary,Often,Landfill,Moderate,4
+391,22,Suburban,Mostly Plant-Based,Often,Bike,Non-Renewable,Apartment,1692,Sometimes,True,3,Moderate,364,4994,Female,Rarely,Composting,None,5
+392,49,Rural,Mostly Plant-Based,Sometimes,Bike,Renewable,Other,1095,Always,False,5,Moderate,60,2751,Non-Binary,Often,Landfill,Low,5
+393,66,Suburban,Mostly Plant-Based,Often,Walk,Non-Renewable,Apartment,1880,Sometimes,False,2,High,126,967,Male,Never,Composting,Low,5
+394,26,Suburban,Mostly Animal-Based,Often,Public Transit,Mixed,Apartment,2526,Sometimes,True,4,None,339,2208,Non-Binary,Never,Combination,Moderate,5
+395,48,Rural,Mostly Animal-Based,Sometimes,Bike,Non-Renewable,Apartment,953,Rarely,False,2,None,367,1497,Male,Sometimes,Composting,High,2
+396,19,Suburban,Mostly Animal-Based,Rarely,Public Transit,Mixed,Apartment,989,Sometimes,False,4,Low,404,1945,Male,Rarely,Landfill,High,2
+397,48,Suburban,Mostly Animal-Based,Always,Public Transit,Mixed,Apartment,664,Often,True,1,None,458,3851,Female,Often,Composting,Moderate,2
+398,51,Urban,Mostly Plant-Based,Always,Car,Mixed,Apartment,836,Always,False,2,Low,55,1166,Non-Binary,Rarely,Recycling,High,5
+399,21,Suburban,Mostly Plant-Based,Rarely,Walk,Mixed,Apartment,2934,Often,True,3,High,190,4313,Female,Never,Landfill,Moderate,5
+400,30,Suburban,Mostly Plant-Based,Rarely,Bike,Renewable,Other,1975,Rarely,False,5,High,359,1414,Male,Sometimes,Composting,Low,5
+401,59,Rural,Mostly Plant-Based,Rarely,Walk,Renewable,House,2774,Sometimes,False,1,None,101,2751,Non-Binary,Often,Landfill,None,1
+402,18,Rural,Mostly Animal-Based,Often,Public Transit,Mixed,Other,419,Rarely,True,4,None,451,1990,Female,Never,Landfill,None,3
+403,24,Urban,Mostly Animal-Based,Always,Public Transit,Mixed,Other,2652,Rarely,False,5,High,494,3442,Male,Rarely,Recycling,High,5
+404,62,Suburban,Balanced,Sometimes,Bike,Non-Renewable,Apartment,958,Always,True,4,None,228,2941,Prefer not to say,Rarely,Composting,High,5
+405,25,Urban,Mostly Plant-Based,Often,Bike,Renewable,House,1345,Rarely,True,4,High,123,1234,Female,Rarely,Composting,High,5
+406,37,Urban,Balanced,Sometimes,Car,Non-Renewable,House,2456,Often,False,2,None,400,4500,Male,Often,Landfill,Low,4
+407,29,Rural,Mostly Animal-Based,Rarely,Car,Non-Renewable,House,1876,Often,False,1,Low,400,4500,Male,Often,Landfill,Low,1
+408,31,Suburban,Balanced,Often,Bike,Renewable,Apartment,854,Sometimes,False,3,Moderate,280,3200,Non-Binary,Sometimes,Recycling,Moderate,3
+409,62,Rural,Mostly Plant-Based,Always,Walk,Renewable,House,1234,Rarely,True,4,High,150,2000,Female,Rarely,Recycling,High,4
+410,26,Urban,Balanced,Sometimes,Car,Non-Renewable,Other,567,Often,False,3,Low,400,4500,Male,Often,Landfill,Low,2
+411,48,Suburban,Mostly Plant-Based,Often,Public Transit,Mixed,Apartment,1198,Sometimes,True,5,High,280,3200,Non-Binary,Sometimes,Recycling,Moderate,5
+412,22,Urban,Mostly Animal-Based,Rarely,Bike,Non-Renewable,House,2123,Often,False,2,None,400,4500,Male,Often,Landfill,Low,3
+413,59,Rural,Balanced,Sometimes,Car,Non-Renewable,Other,789,Often,False,1,Low,400,4500,Male,Often,Landfill,Low,1
+414,35,Urban,Mostly Plant-Based,Often,Walk,Renewable,Apartment,1345,Sometimes,True,4,Moderate,150,2000,Female,Rarely,Recycling,High,4
+415,41,Suburban,Balanced,Sometimes,Car,Non-Renewable,House,2345,Often,False,2,None,400,4500,Male,Often,Landfill,Low,2
+416,52,Rural,Mostly Plant-Based,Always,Public Transit,Mixed,House,1567,Rarely,True,5,High,280,3200,Non-Binary,Sometimes,Recycling,Moderate,5
+417,28,Suburban,Mostly Animal-Based,Rarely,Bike,Renewable,Other,678,Sometimes,False,3,Moderate,400,4500,Male,Often,Landfill,Low,3
+418,65,Urban,Balanced,Sometimes,Car,Non-Renewable,Apartment,987,Often,False,1,Low,400,4500,Male,Often,Landfill,Low,1
+419,58,Urban,Mostly Animal-Based,Rarely,Walk,Renewable,Apartment,1996,Rarely,False,5,None,388,2092,Male,Often,Recycling,Moderate,4
+420,46,Rural,Balanced,Often,Bike,Non-Renewable,Other,589,Sometimes,True,2,Moderate,207,1618,Non-Binary,Often,Landfill,High,5
+421,39,Rural,Mostly Plant-Based,Rarely,Car,Mixed,House,1361,Always,False,3,High,496,3051,Female,Sometimes,Combination,Low,3
+422,64,Urban,Mostly Animal-Based,Always,Walk,Renewable,Apartment,2426,Sometimes,False,5,Moderate,479,1765,Female,Never,Combination,Low,4
+423,53,Rural,Balanced,Often,Bike,Renewable,House,2896,Always,True,5,Moderate,202,1996,Female,Sometimes,Combination,Moderate,5
+424,63,Suburban,Mostly Plant-Based,Sometimes,Public Transit,Mixed,Other,2859,Sometimes,False,4,High,151,4008,Non-Binary,Never,Recycling,Low,3
+425,24,Urban,Balanced,Sometimes,Public Transit,Mixed,House,2522,Often,False,1,Moderate,491,3963,Non-Binary,Rarely,Recycling,High,5
+426,65,Rural,Mostly Animal-Based,Rarely,Bike,Mixed,House,2764,Always,False,4,Moderate,205,4702,Female,Rarely,Combination,Moderate,5
+427,57,Suburban,Mostly Plant-Based,Rarely,Public Transit,Renewable,House,2966,Often,True,1,High,421,3790,Male,Often,Recycling,None,5
+428,32,Urban,Mostly Plant-Based,Always,Car,Non-Renewable,Other,2715,Sometimes,False,2,Moderate,294,1197,Male,Often,Recycling,Moderate,5
+429,21,Suburban,Balanced,Often,Public Transit,Non-Renewable,Other,1965,Rarely,False,5,Moderate,236,4968,Female,Rarely,Recycling,Low,4
+430,66,Urban,Mostly Plant-Based,Often,Bike,Mixed,House,1588,Rarely,False,2,High,327,4111,Prefer not to say,Rarely,Composting,None,5
+431,39,Rural,Mostly Animal-Based,Always,Public Transit,Renewable,Apartment,852,Always,False,4,None,383,2181,Male,Rarely,Combination,Low,3
+432,66,Urban,Mostly Animal-Based,Often,Walk,Mixed,House,2510,Often,False,1,High,382,3530,Female,Rarely,Combination,High,5
+433,60,Rural,Mostly Animal-Based,Rarely,Walk,Non-Renewable,Apartment,1290,Always,False,2,Low,333,1591,Male,Never,Combination,Low,5
+434,36,Suburban,Mostly Animal-Based,Sometimes,Car,Mixed,House,1040,Always,True,1,Low,383,3973,Male,Sometimes,Recycling,None,1
+435,31,Urban,Balanced,Often,Walk,Non-Renewable,House,1193,Often,False,4,None,103,1918,Prefer not to say,Rarely,Combination,Moderate,4
+436,42,Urban,Balanced,Often,Car,Mixed,Apartment,2541,Sometimes,False,1,Moderate,276,4012,Prefer not to say,Often,Recycling,None,4
+437,21,Rural,Mostly Plant-Based,Sometimes,Bike,Non-Renewable,Apartment,1991,Always,True,2,None,427,3156,Prefer not to say,Rarely,Composting,High,1
+438,32,Urban,Balanced,Rarely,Public Transit,Mixed,Apartment,2400,Sometimes,False,2,Low,422,3857,Prefer not to say,Rarely,Combination,None,5
+439,60,Urban,Mostly Plant-Based,Always,Bike,Renewable,Other,2575,Sometimes,False,2,High,335,2294,Male,Sometimes,Composting,Low,5
+440,45,Suburban,Mostly Plant-Based,Rarely,Bike,Non-Renewable,House,1231,Sometimes,False,4,Moderate,275,3367,Prefer not to say,Often,Landfill,High,3
+441,56,Suburban,Mostly Animal-Based,Always,Car,Mixed,Apartment,691,Often,True,1,Moderate,491,3961,Prefer not to say,Never,Recycling,Moderate,4
+442,53,Urban,Mostly Plant-Based,Rarely,Walk,Renewable,House,2063,Always,False,3,Moderate,345,1891,Male,Rarely,Composting,None,5
+443,21,Suburban,Mostly Animal-Based,Often,Car,Non-Renewable,Apartment,1632,Sometimes,True,3,High,191,1399,Female,Sometimes,Combination,High,1
+444,36,Suburban,Balanced,Often,Walk,Non-Renewable,Apartment,668,Always,False,3,Low,442,4638,Prefer not to say,Sometimes,Recycling,None,4
+445,21,Suburban,Mostly Animal-Based,Sometimes,Walk,Mixed,Other,2274,Rarely,True,4,High,123,1965,Female,Often,Landfill,Low,5
+446,57,Suburban,Mostly Plant-Based,Often,Car,Renewable,Apartment,1360,Sometimes,False,2,Low,349,3825,Male,Rarely,Recycling,High,3
+447,34,Suburban,Balanced,Rarely,Walk,Non-Renewable,Other,2875,Sometimes,False,4,None,425,3819,Male,Often,Composting,Low,5
+448,24,Rural,Mostly Plant-Based,Rarely,Walk,Renewable,Apartment,857,Sometimes,False,5,Moderate,496,3679,Female,Often,Landfill,High,5
+449,36,Urban,Balanced,Often,Car,Mixed,House,1808,Often,False,1,None,497,1542,Male,Rarely,Landfill,Moderate,1
+450,62,Rural,Balanced,Sometimes,Bike,Renewable,House,2618,Always,False,5,High,356,1241,Female,Sometimes,Recycling,High,5
+451,35,Suburban,Mostly Plant-Based,Always,Walk,Mixed,Apartment,1638,Often,True,5,Moderate,452,2717,Male,Rarely,Combination,Low,5
+452,58,Rural,Mostly Animal-Based,Always,Public Transit,Renewable,House,1234,Sometimes,False,2,High,286,4889,Prefer not to say,Rarely,Landfill,None,1
+453,32,Rural,Mostly Plant-Based,Rarely,Walk,Mixed,House,1850,Often,False,1,High,397,4076,Female,Rarely,Recycling,Low,5
+454,55,Suburban,Mostly Animal-Based,Always,Car,Mixed,House,871,Often,False,5,None,385,2066,Non-Binary,Often,Recycling,Low,1
+455,70,Suburban,Mostly Plant-Based,Often,Car,Renewable,Apartment,2446,Always,True,1,High,254,692,Prefer not to say,Rarely,Composting,Moderate,5
+456,61,Suburban,Mostly Plant-Based,Rarely,Car,Renewable,Other,2628,Always,False,4,High,456,2226,Female,Never,Landfill,High,5
+457,58,Rural,Balanced,Often,Car,Mixed,House,1344,Often,False,2,High,327,4873,Male,Sometimes,Landfill,None,1
+458,21,Suburban,Mostly Plant-Based,Always,Bike,Renewable,Other,2859,Rarely,False,1,Low,331,3863,Prefer not to say,Never,Recycling,Low,4
+459,58,Urban,Mostly Animal-Based,Often,Walk,Mixed,House,1361,Always,False,5,None,226,1501,Male,Rarely,Combination,High,5
+460,42,Urban,Mostly Plant-Based,Rarely,Public Transit,Non-Renewable,House,2453,Rarely,False,2,Low,490,1290,Non-Binary,Never,Recycling,Moderate,4
+461,26,Suburban,Balanced,Rarely,Car,Non-Renewable,Apartment,1953,Always,False,1,None,157,3181,Male,Rarely,Composting,Moderate,2
+462,43,Suburban,Mostly Animal-Based,Always,Bike,Renewable,House,1808,Often,False,5,None,320,608,Non-Binary,Never,Recycling,High,4
+463,58,Rural,Balanced,Rarely,Public Transit,Renewable,Apartment,828,Always,False,3,Low,433,4032,Non-Binary,Sometimes,Composting,Low,2
+464,68,Urban,Balanced,Rarely,Walk,Renewable,Apartment,851,Often,False,4,None,203,3963,Prefer not to say,Often,Combination,Moderate,3
+465,27,Suburban,Balanced,Sometimes,Car,Mixed,House,2458,Sometimes,False,5,Moderate,494,4560,Female,Sometimes,Combination,Moderate,2
+466,50,Urban,Mostly Plant-Based,Often,Bike,Renewable,House,2321,Rarely,False,3,None,438,2311,Non-Binary,Rarely,Composting,Moderate,5
+467,19,Urban,Mostly Animal-Based,Often,Public Transit,Mixed,House,441,Always,False,2,Moderate,155,2162,Prefer not to say,Never,Landfill,Low,4
+468,46,Urban,Mostly Animal-Based,Always,Public Transit,Non-Renewable,Apartment,1927,Rarely,False,1,Moderate,352,3825,Prefer not to say,Rarely,Landfill,Low,1
+469,36,Rural,Balanced,Rarely,Car,Mixed,Other,844,Always,True,4,Moderate,105,2957,Male,Rarely,Composting,Moderate,5
+470,26,Suburban,Balanced,Sometimes,Bike,Mixed,Other,2359,Always,False,1,Low,294,4943,Male,Often,Landfill,Low,2
+471,45,Rural,Mostly Plant-Based,Often,Walk,Renewable,House,1345,Rarely,True,4,High,123,1234,Female,Rarely,Composting,High,5
+472,32,Suburban,Balanced,Sometimes,Car,Non-Renewable,House,2456,Often,False,2,None,400,4500,Male,Often,Landfill,Low,4
+473,29,Rural,Mostly Animal-Based,Rarely,Car,Non-Renewable,House,1876,Often,False,1,Low,400,4500,Male,Often,Landfill,Low,1
+474,31,Suburban,Balanced,Often,Bike,Renewable,Apartment,854,Sometimes,False,3,Moderate,280,3200,Non-Binary,Sometimes,Recycling,Moderate,3
+475,62,Rural,Mostly Plant-Based,Always,Walk,Renewable,House,1234,Rarely,True,4,High,150,2000,Female,Rarely,Recycling,High,4
+476,26,Urban,Balanced,Sometimes,Car,Non-Renewable,Other,567,Often,False,3,Low,400,4500,Male,Often,Landfill,Low,2
+477,48,Suburban,Mostly Plant-Based,Often,Public Transit,Mixed,Apartment,1198,Sometimes,True,5,High,280,3200,Non-Binary,Sometimes,Recycling,Moderate,5
+478,22,Urban,Mostly Animal-Based,Rarely,Bike,Non-Renewable,House,2123,Often,False,2,None,400,4500,Male,Often,Landfill,Low,3
+479,59,Rural,Balanced,Sometimes,Car,Non-Renewable,Other,789,Often,False,1,Low,400,4500,Male,Often,Landfill,Low,1
+480,35,Urban,Mostly Plant-Based,Often,Walk,Renewable,Apartment,1345,Sometimes,True,4,Moderate,150,2000,Female,Rarely,Recycling,High,4
+481,41,Suburban,Balanced,Sometimes,Car,Non-Renewable,House,2345,Often,False,2,None,400,4500,Male,Often,Landfill,Low,2
+482,52,Rural,Mostly Plant-Based,Always,Public Transit,Mixed,House,1567,Rarely,True,5,High,280,3200,Non-Binary,Sometimes,Recycling,Moderate,5
+483,28,Suburban,Mostly Animal-Based,Rarely,Bike,Renewable,Other,678,Sometimes,False,3,Moderate,400,4500,Male,Often,Landfill,Low,3
+484,65,Urban,Balanced,Sometimes,Car,Non-Renewable,Apartment,987,Often,False,1,Low,400,4500,Male,Often,Landfill,Low,1
+485,39,Rural,Mostly Plant-Based,Often,Walk,Renewable,House,1890,Sometimes,True,5,High,150,2000,Female,Rarely,Recycling,High,4
+486,24,Urban,Balanced,Sometimes,Public Transit,Non-Renewable,Other,567,Often,False,2,Low,400,4500,Male,Often,Landfill,Low,2
+487,50,Suburban,Mostly Plant-Based,Always,Bike,Mixed,Apartment,1123,Rarely,True,4,High,280,3200,Non-Binary,Sometimes,Recycling,Moderate,5
+489,33,Urban,Mostly Animal-Based,Rarely,Car,Non-Renewable,House,2567,Often,False,3,None,400,4500,Male,Often,Landfill,Low,3
+490,61,Rural,Balanced,Sometimes,Public Transit,Non-Renewable,Apartment,890,Often,False,1,Low,400,4500,Male,Often,Landfill,Low,1
+491,36,Urban,Mostly Plant-Based,Often,Walk,Renewable,House,1987,Sometimes,True,4,Moderate,150,2000,Female,Rarely,Recycling,High,4
+492,45,Suburban,Balanced,Sometimes,Car,Non-Renewable,Other,765,Often,False,2,None,400,4500,Male,Often,Landfill,Low,2
+493,53,Rural,Mostly Plant-Based,Always,Public Transit,Mixed,Apartment,1098,Rarely,True,5,High,280,3200,Non-Binary,Sometimes,Recycling,Moderate,5
+494,27,Suburban,Mostly Animal-Based,Rarely,Bike,Renewable,House,2345,Sometimes,False,3,Moderate,400,4500,Male,Often,Landfill,Low,3
+495,64,Urban,Balanced,Sometimes,Car,Non-Renewable,Other,654,Often,False,2,Low,400,4500,Male,Often,Landfill,Low,1
+496,38,Rural,Mostly Plant-Based,Often,Walk,Renewable,House,1789,Sometimes,True,4,High,150,2000,Female,Rarely,Recycling,High,4
+497,25,Urban,Balanced,Sometimes,Public Transit,Non-Renewable,Apartment,987,Often,False,2,Low,400,4500,Male,Often,Landfill,Low,2
+498,51,Suburban,Mostly Plant-Based,Always,Bike,Mixed,House,1678,Rarely,True,5,High,280,3200,Non-Binary,Sometimes,Recycling,Moderate,5
+499,32,Rural,Mostly Plant-Based,Rarely,Walk,Mixed,House,1850,Often,False,1,High,397,4076,Female,Rarely,Recycling,Low,5
+500,55,Suburban,Mostly Animal-Based,Always,Car,Mixed,House,871,Often,False,5,None,385,2066,Non-Binary,Often,Recycling,Low,1
