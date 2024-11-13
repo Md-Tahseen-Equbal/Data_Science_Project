@@ -1,0 +1,11 @@
+Metric/Parameter,Value
+Best Model - Validation Loss,0.0019
+Best Model - Accuracy,0.9999
+,
+Best Hyperparameter,Value
+Initializer,he_normal
+Number of Units (Layer 1),200
+Activation (Layer 1),relu
+Number of Units (Layer 2),50
+Activation (Layer 2),sigmoid
+Optimizer,adam
