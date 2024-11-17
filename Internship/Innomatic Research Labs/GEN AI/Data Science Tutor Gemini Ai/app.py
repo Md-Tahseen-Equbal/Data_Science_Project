@@ -2,7 +2,7 @@ import streamlit as st
 import google.generativeai as ai
 
 # Configure the AI model with API key
-ai.configure(api_key="AIzaSyCNWcREa6fS9Ph9nzcDM8W2CCGnrcZLxVE")
+ai.configure(api_key="Your Api Key")
 
 # Define system prompt
 sys_prompt = """You are a helpful AI Tutor for Data Science. 
