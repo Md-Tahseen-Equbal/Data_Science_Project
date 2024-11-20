@@ -14,7 +14,7 @@ name_of_ml_algo = st.selectbox(
 from langchain_google_genai import ChatGoogleGenerativeAI
 
 # Set your Gemini API key directly
-GEMINI_API_KEY = "AIzaSyCNWcREa6fS9Ph9nzcDM8W2CCGnrcZLxVE"
+GEMINI_API_KEY = "Your API Key"
 
 # Set the OpenAI Key and initialize a ChatModel
 chat_model = ChatGoogleGenerativeAI(google_api_key=GEMINI_API_KEY, model="gemini-1.5-flash")
