@@ -8,7 +8,7 @@ from langchain_core.prompts import ChatPromptTemplate
 from langchain_core.output_parsers import StrOutputParser
 
 # Set your Gemini API key
-GEMINI_API_KEY = "AIzaSyCNWcREa6fS9Ph9nzcDM8W2CCGnrcZLxVE"
+GEMINI_API_KEY = "Your API Key"
 
 # Initialize ChatModel
 chat_model = ChatGoogleGenerativeAI(google_api_key=GEMINI_API_KEY, model="gemini-1.5-flash")
